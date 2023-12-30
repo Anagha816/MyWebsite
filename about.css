@@ -1,0 +1,67 @@
+.nav-bar {
+    display: flex;
+    background-color:rgb(29, 25, 25);
+    justify-content: space-around;
+    align-items: center;
+    height:10vh;
+}
+
+.nav-bar a 
+{
+    padding:10px;
+    margin:35px;
+    color: azure;
+    text-decoration: none;
+}
+.nav-bar a:hover
+{
+    color:wheat;
+    font-size: large;
+}
+
+.image
+{
+    background-image: url('./images/new1.jpg');
+    height:90vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+   justify-content:center;
+   align-items: center;
+   text-align:center;
+    
+}
+
+
+
+.abt
+{
+    
+    color:antiquewhite;
+    font-size: x-large;
+    display:flex;
+
+   
+   
+}
+
+@media screen and (max-width: 750px) {
+    .abt {
+        flex-direction: column;
+        text-align:center;
+        
+    }
+    .image {
+        height: 90vh;
+        width: 100%;
+        background-size:cover;
+    }
+    .nav-bar a{
+        width: 25%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
